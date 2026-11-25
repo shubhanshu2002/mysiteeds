@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.cards .card {
+  flex: 1 1 calc(33% - 1rem);
+  border: 1px solid red;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cards .card-body {
+  padding: 1.5rem;
+}
+
+.cards h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
